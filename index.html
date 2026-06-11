@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Suri the Cat :3</title>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:#050505;
+    font-family:Arial, Helvetica, sans-serif;
+    color:white;
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:20px;
+}
+
+.container{
+    width:100%;
+    max-width:1200px;
+    text-align:center;
+}
+
+.banner{
+    width:100%;
+    border-radius:25px;
+    box-shadow:0 0 40px rgba(0,150,255,.15);
+}
+
+.links{
+    margin-top:25px;
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:15px;
+}
+
+.btn{
+    text-decoration:none;
+    color:white;
+    background:#101010;
+    border:1px solid rgba(255,255,255,.08);
+    padding:16px 24px;
+    border-radius:18px;
+    min-width:220px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:12px;
+    transition:.25s;
+}
+
+.btn:hover{
+    transform:translateY(-4px);
+    border-color:#3aa7ff;
+    box-shadow:0 0 20px rgba(58,167,255,.25);
+}
+
+.btn i{
+    font-size:1.5rem;
+}
+
+.fa-steam{
+    color:#66c0f4;
+}
+
+.fa-discord{
+    color:#5865F2;
+}
+
+.fa-telegram{
+    color:#2AABEE;
+}
+
+.fa-vr-cardboard{
+    color:white;
+}
+
+.info{
+    display:flex;
+    flex-direction:column;
+    align-items:flex-start;
+}
+
+.title{
+    font-weight:bold;
+    font-size:1rem;
+}
+
+.subtitle{
+    font-size:.85rem;
+    opacity:.7;
+}
+
+footer{
+    margin-top:20px;
+    opacity:.5;
+    font-size:.85rem;
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+
+    <img src="banner.png" class="banner" alt="Suri the Cat">
+
+    <div class="links">
+
+        <a class="btn"
+        href="https://steamcommunity.com/id/surithecat/"
+        target="_blank">
+
+            <i class="fa-brands fa-steam"></i>
+
+            <div class="info">
+                <div class="title">Steam</div>
+                <div class="subtitle">surithecat</div>
+            </div>
+
+        </a>
+
+        <div class="btn">
+
+            <i class="fa-brands fa-discord"></i>
+
+            <div class="info">
+                <div class="title">Discord</div>
+                <div class="subtitle">suriithecat</div>
+            </div>
+
+        </div>
+
+        <a class="btn"
+        href="https://vrchat.com/home/user/usr_e010a2c3-bfed-45d9-b09d-febad20beff0"
+        target="_blank">
+
+            <i class="fa-solid fa-vr-cardboard"></i>
+
+            <div class="info">
+                <div class="title">VRChat</div>
+                <div class="subtitle">-Suri</div>
+            </div>
+
+        </a>
+
+        <a class="btn"
+        href="https://t.me/surithecat"
+        target="_blank">
+
+            <i class="fa-brands fa-telegram"></i>
+
+            <div class="info">
+                <div class="title">Telegram</div>
+                <div class="subtitle">@surithecat</div>
+            </div>
+
+        </a>
+
+    </div>
+
+    <footer>
+        Suri the Cat :3
+    </footer>
+
+</div>
+
+</body>
+</html>
